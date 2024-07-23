@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #F0F0F0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0px 0;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        nav {
+            float: left;
+            width: 20%;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #444;
+            border-radius: 5px;
+        }
+        nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            float: right;
+            width: 75%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .bio {
+            margin-top: 20px;
+        }
+        .bio img {
+            width: 250px;
+            height: auto;
+            float: left;
+            margin-right: 25px;
+            border-radius: 5px;
+        }
+        .contact-info {
+            margin-top: 10px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        #comment-form {
+            margin-top: 20px;
+        }
+        #comments-ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #comments-ul li {
+            margin-bottom: 10px;
+        }
+       footer {
+           text-align: center;
+           background-color: #333;
+    	   color: #fff;
+           padding: 5px;
+           bottom: 0;
+           width: 100%;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects & Works</a>
+            <a href="#cv">CV / Resume</a>
+            <a href="#blog">Blog / Articles</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <div class="content">
+            <section id="about">
+                <h2>About Me</h2>
+                <div class="bio">
+                    <img src="img/img.jpeg" alt="Profile Picture">
+                    <p><strong>HALLO!</strong></p>
+                       <p>Saya Piska Santika, Seorang mahasiswa yang bersemangat untuk mengeksplorasi dunia pengetahuan dan pengalaman di Universitas Muhammadiyah Riau,Fakultas Ilmu Komputer. Saat ini, saya sedang menempuh studi di bidang Teknik Informatika dengan fokus utama pada Network dan Digital Forensik.
+                          .Selain menempuh jalur pendidikan saat ini saya juga
+                          bekerja di salah satu perusahaan dibidang healt food dan skincare.</p>
+                          <p>Saya percaya bahwa pendidikan adalah investasi terbaik yang dapat saya berikan kepada diri sendiri. 
+                           Meskipun bekerja secara penuh waktu, saya tetap bersemangat untuk mengejar pendidikan lebih lanjut.
+                           Setiap hari adalah kesempatan untuk belajar dan tumbuh, baik di tempat kerja maupun di ruang kelas. Saya menganggap pekerjaan sebagai ladang untuk mengaplikasikan pengetahuan yang saya dapatkan, 
+                           sementara pendidikan memberi saya landasan teoritis dan keterampilan yang lebih dalam.</p>
+                           <p>Komitmen saya terhadap kedua hal ini menunjukkan dedikasi saya terhadap pengembangan diri dan aspirasi karir saya. Saya percaya bahwa dengan disiplin, 
+                            manajemen waktu yang efektif, dan semangat yang tinggi, saya dapat mencapai tujuan dalam kedua bidang ini.</p>
+                           <p>Pendidikan tidak hanya mengubah diri kita secara pribadi, tetapi juga memberi kita alat untuk menciptakan perubahan positif dalam masyarakat dan industri tempat kita berkontribusi. Saya berharap bahwa pengalaman ini tidak hanya memberi saya keterampilan dan pengetahuan baru, t
+                           etapi juga memungkinkan saya untuk menginspirasi orang lain untuk mengejar impian mereka dengan tekun dan penuh semangat.
+
+
+                       
+                       </p>
+                    <p>Success with a forward mindset</p>
+                </div>
+            </section>
+
+           <section id="projects">
+    <h2>Projects & Works</h2>
+    <p>Partisipasi dalam proyek ini tidak hanya memperluas pengetahuan dan keterampilan dalam pertanian dan perkerjann yang saya alami,
+       tetapi juga meningkatkan pemahaman tentang tantangan nyata yang dihadapi oleh masyarakat dan karyawan. 
+       saya juga belajar banyak tentang kolaborasi tim, manajemen proyek, dan adaptasi terhadap situasi yang berbeda.</p>
+    <div class="gallery">
+        <!-- Include your artwork images here -->
+        <img src="img/img.jpg" alt="Artwork 1">
+        <img src="img/kkn.jpeg" alt="Artwork 2">
+        <img src="img/kampus.jpeg" alt="Artwork 3">
+        <img src="img/img3.jpg" alt="Artwork 4">
+        <img src="img/project1.jpeg" alt="Artwork 5">
+        <img src="img/cc.jpeg" alt="Artwork 5">
+        
+        <!-- Include your video here -->
+        <video controls poster="ccc/video-poster.jpg" class="gallery-video">
+            <source src="img/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+
+            <section id="cv">
+                <h2>CV / Resume</h2>
+                <p>perusahaan tempat saya bekerja sedang mencari individu yang berdedikasi untuk mengisi posisi yang tersedia. 
+                  Temukan lebih lanjut tentang kesempatan ini di sini.
+                </p>
+                <p>Download open recruitment  <a href="img/spg.png" target="_blank">here</a>.</p>
+                <p>Download open recruitment  <a href="img/open.jpeg" target="_blank">here</a>.</p>
+                <p>ajaran baru sudah didepan mata,bagi  yang masih binggung cari kampus dimana dan masih terkendala keuangan kampus umri memiliki beberapa
+                   program beasiswa yang bisa kalian meliki. UMRI mempunyai program studi baru di fakultas kesehatan yaitu program studi profesi 
+                   kebidaan dan lainya, 
+                   Temukan lebih lanjut tentang kesempatan ini di sini</p>
+                <p>Download program beasiswa  <a href="img/bea.jpeg" target="_blank">here</a>.</p>
+                <p>Download profesi kebidanan  <a href="img/bidan.jpeg" target="_blank">here</a>.</p>
+            </section>
+
+            <section id="blog">
+                <h2>Blog / Articles</h2>
+                <p>Blog ini di link artikel ini, anda akan menemukan berbagai artikel yang mencakup food suplemen, termasuk penjelasana tentang food suplemen,manfaat
+                   ,dan tata cara mengkomsumsi food suplemen dengan baik. 
+                   blog ini akan berusaha untuk memberikan konten yang informatif, relevan, dan terpercaya kepada para pembaca kami.</p>
+                <ul>
+                    <li><a href="https://piska43.github.io/website-personal/index.html">Article 1 Title</a> food suplemen</li>
+                 
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> piskasantika123@gmail.com</p>
+                    <p><strong>Phone:</strong> +8126141****</p>
+                    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/piska_santika?igsh=MWRvcmU1cm8wdXFsZg==" target="_blank">flow_daffodil</a></p>
+                </div>
+            </section>
+
+            <section id="comments">
+                <h2>Comments</h2>
+                <div id="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <form id="new-comment-form">
+                        <div>
+                            <label for="comment-name">Name:</label><br>
+                            <input type="text" id="comment-name" name="comment-name" required>
+                        </div>
+                        <div>
+                            <label for="comment-message">Comment:</label><br>
+                            <textarea id="comment-message" name="comment-message" rows="4" required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Submit Comment</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="comments-list">
+                    <h3>Previous Comments</h3>
+                    <ul id="comments-ul">
+                        <!-- Comments will be dynamically added here -->
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const commentForm = document.getElementById('new-comment-form');
+            const commentsList = document.getElementById('comments-ul');
+
+            commentForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const name = document.getElementById('comment-name').value;
+                const message = document.getElementById('comment-message').value;
+
+                const comment = document.createElement('li');
+                comment.innerHTML = `<strong>${name}</strong>: ${message}`;
+                commentsList.appendChild(comment);
+
+                commentForm.reset(); // Reset form fields after submission
+            });
+        });
+    </script>
+<footer>
+        <p><strong>Created by @piskasantika2024 </strong></p>
+    </footer>
+</body>
+</html>
